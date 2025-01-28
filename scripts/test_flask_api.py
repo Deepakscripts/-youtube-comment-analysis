@@ -2,7 +2,7 @@ import pytest
 import requests
 import json
 
-BASE_URL = "http://localhost:5000"  # Replace with your deployed URL if needed
+BASE_URL = "http://my-elastic-load-balancer-881531694.ap-south-1.elb.amazonaws.com:80"  # Replace with your deployed URL if needed
 
 def test_predict_endpoint():
     data = {
