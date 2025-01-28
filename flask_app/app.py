@@ -88,6 +88,9 @@ def predict_with_timestamps():
         # Transform comments using the vectorizer
         transformed_comments = vectorizer.transform(preprocessed_comments)
         
+        # Convert csr_matrix to DataFrame
+        transformed_comments_df = pd.DataFrame(transformed_comments.toarray(), columns=vectorizer.get_feature_names_out())
+        
         # Make predictions
         predictions = model.predict(transformed_comments).tolist()  # Convert to list
         
@@ -114,6 +117,9 @@ def predict():
         
         # Transform comments using the vectorizer
         transformed_comments = vectorizer.transform(preprocessed_comments)
+        
+        # Convert csr_matrix to DataFrame
+        transformed_comments_df = pd.DataFrame(transformed_comments.toarray(), columns=vectorizer.get_feature_names_out())
         
         # Make predictions
         predictions = model.predict(transformed_comments).tolist()  # Convert to list
