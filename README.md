@@ -1,6 +1,3 @@
-Here's a well-structured `README.md` file for your GitHub repository, incorporating details from your project document and CI/CD pipeline:  
-
----
 
 # 🚀 Influencer Insights Chrome Plugin  
 
