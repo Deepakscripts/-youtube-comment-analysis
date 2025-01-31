@@ -23,7 +23,7 @@ Due to the vast volume of comments influencers receive, manual analysis is impra
 ### 🔹 Frontend  
 - **JavaScript, HTML, CSS** (Chrome Extension APIs)  
 
-### 🔹 MLOps & Infrastructure  
+### 🔹 MlOps & Infrastructure  
 - **CI/CD:** GitHub Actions  
 - **Containerization:** Docker  
 - **Cloud Services:** AWS (EC2, S3, CodeDeploy, IAM, CloudWatch)  
