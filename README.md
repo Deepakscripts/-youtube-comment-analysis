@@ -8,11 +8,9 @@ Due to the vast volume of comments influencers receive, manual analysis is impra
 
 ## 🎯 Key Features  
 - **Sentiment Analysis:** Categorizes comments as **positive, neutral, or negative** with visualization.  
-- **Comment Summarization:** Extracts key themes and frequent feedback.  
 - **Word Cloud:** Identifies trending topics within comments.  
-- **Spam & Troll Detection:** Filters out irrelevant or harmful comments.  
+- **Spam Detection:** Filters out irrelevant or harmful comments.  
 - **Trend Tracking:** Observes sentiment fluctuations over time.  
-- **Export Analysis:** Download insights in CSV/PDF formats.  
 
 ## 🏗️ Tech Stack  
 ### 🔹 Backend & ML  
